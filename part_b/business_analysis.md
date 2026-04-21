@@ -53,7 +53,7 @@ Instead of a single global model:
 **Justification:**
 Different stores respond differently due to demographics, competition, and footfall. A single model may average out these effects and reduce accuracy.
 
----
+
 
 ## B2. Data and EDA Strategy
 
@@ -82,7 +82,7 @@ One row = **store × month**
 * Count of promotion days
 * Flags for weekends/festivals
 
----
+
 
 ### (b) EDA Strategy
 
@@ -111,7 +111,7 @@ One row = **store × month**
    * Compare performance across stores
    * Detect heterogeneity → supports segmented modelling
 
----
+
 
 ### (c) Handling Promotion Imbalance
 
@@ -130,7 +130,7 @@ Problem: 80% of data has **no promotion**
 * Stratified analysis by promotion vs non-promotion
 * Consider uplift modelling (treatment vs control)
 
----
+
 
 ## B3. Model Evaluation and Deployment
 
@@ -167,7 +167,7 @@ Problem: 80% of data has **no promotion**
 * Lower RMSE/MAE → better prediction accuracy
 * Compare models based on consistency across stores
 
----
+
 
 ### (b) Explaining Model Recommendations
 
@@ -190,7 +190,7 @@ To explain why different promotions are recommended:
 * Use simple visuals (feature importance charts)
 * Translate technical insights into business terms
 
----
+
 
 ### (c) Deployment Strategy
 
@@ -230,7 +230,7 @@ To explain why different promotions are recommended:
   * Performance degrades beyond threshold
   * Significant seasonal or market changes occur
 
----
+
 
 ## Conclusion
 
